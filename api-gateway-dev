@@ -1,0 +1,17 @@
+endpoints:
+  web:
+    exposure:
+      include: "*"
+
+zuul:
+  routes:
+    myProduct:
+      path: /myProduct/**
+      serviceId: product
+#      允许传递HttpServletRequest所有东西
+      sensitiveHeaders:
+#   简洁写法
+#    product: /myProduct/**
+#    以下接口不会对外暴露
+#  ignored-patterns:
+#    - /**/product/listForOrder
