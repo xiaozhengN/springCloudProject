@@ -10,7 +10,7 @@ zuul:
       serviceId: product
 #      允许传递HttpServletRequest所有东西
       sensitiveHeaders:
-    user: /user/**
+    user: /myUser/**
 #   简洁写法
 #    product: /myProduct/**
 #    以下接口不会对外暴露
