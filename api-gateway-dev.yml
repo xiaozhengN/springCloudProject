@@ -19,11 +19,11 @@ zuul:
 #      允许传递HttpServletRequest所有东西
       sensitiveHeaders:
       
-#     myUser:
-#       path: /myUser/**
-#       serviceId: user
-#       #      允许传递HttpServletRequest所有东西
-#       sensitiveHeaders:
+    myUser:
+      path: /myUser/**
+      serviceId: user
+      #      允许传递HttpServletRequest所有东西
+      sensitiveHeaders:
 #   简洁写法
 #    product: /myProduct/**
 #    以下接口不会对外暴露
