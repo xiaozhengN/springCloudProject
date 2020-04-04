@@ -7,7 +7,7 @@ zuul:
   routes:
 #     user: /user/**
 #     order: /order/**
-    myProduct:
+    myProduct2:
       path: /myProduct/**
       serviceId: product
 #      允许传递HttpServletRequest所有东西
