@@ -7,14 +7,14 @@ zuul:
   routes:
 #     user: /user/**
 #     order: /order/**
-    myProduct2:
-      path: /myProduct/**
+    myProduct:
+      path: /myProduct2/**
       serviceId: product
 #      允许传递HttpServletRequest所有东西
       sensitiveHeaders:
       
-    order2:
-      path: /order/**
+    order:
+      path: /order2/**
       serviceId: order
 #      允许传递HttpServletRequest所有东西
       sensitiveHeaders:
