@@ -19,8 +19,8 @@ zuul:
 #      允许传递HttpServletRequest所有东西
       sensitiveHeaders:
       
-    myUser:
-      path: /myUser/**
+    myUser2:
+      path: /myUser2/**
       serviceId: user
       #      允许传递HttpServletRequest所有东西
       sensitiveHeaders:
