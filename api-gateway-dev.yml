@@ -13,7 +13,7 @@ zuul:
 #      允许传递HttpServletRequest所有东西
       sensitiveHeaders:
       
-    order1:
+    order2:
       path: /order/**
       serviceId: order
 #      允许传递HttpServletRequest所有东西
