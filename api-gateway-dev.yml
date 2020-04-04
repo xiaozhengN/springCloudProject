@@ -6,7 +6,7 @@ endpoints:
 zuul:
   routes:
 #     user: /user/**
-    order: /order/**
+#     order: /order/**
     myProduct:
       path: /myProduct/**
       serviceId: product
