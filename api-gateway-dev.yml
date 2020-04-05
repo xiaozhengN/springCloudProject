@@ -5,10 +5,10 @@ endpoints:
 
 zuul:
   routes:
-    user: /user/**
-    order: /order/**
+#     user: /user/**
+#     order: /order/**
     myProduct:
-      path: /myProduct/**
+      path: /product/**
       serviceId: PRODUCT
 #      允许传递HttpServletRequest所有东西
       sensitiveHeaders:
