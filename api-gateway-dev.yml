@@ -8,16 +8,16 @@ zuul:
 #     user: /user/**
 #     order: /order/**
     myProduct:
-      path: /myProduct/**
+      path: /product/**
       serviceId: PRODUCT
 #      允许传递HttpServletRequest所有东西
       sensitiveHeaders:
       
-#     myOrder:
-#       path: /myOrder/**
-#       serviceId: ORDER
-# #      允许传递HttpServletRequest所有东西
-#       sensitiveHeaders:
+    myOrder:
+      path: /myOrder/**
+      serviceId: ORDER
+#      允许传递HttpServletRequest所有东西
+      sensitiveHeaders:
       
 #     myUser:
 #       path: /myUser/**
