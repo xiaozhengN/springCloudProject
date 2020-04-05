@@ -6,16 +6,22 @@ endpoints:
 zuul:
   routes:
 #     user: /user/**
-    order: /order/**
+#     order: /order/**
     myProduct:
-      path: /myProduct2/**
-      serviceId: product
+      path: /myProduct/**
+      serviceId: PRODUCT
+#      允许传递HttpServletRequest所有东西
+      sensitiveHeaders:
+      
+    myOrder:
+      path: /myOrder/**
+      serviceId: ORDER
 #      允许传递HttpServletRequest所有东西
       sensitiveHeaders:
       
     myUser:
       path: /myUser/**
-      serviceId: user
+      serviceId: USER
       #      允许传递HttpServletRequest所有东西
       sensitiveHeaders:
 #   简洁写法
