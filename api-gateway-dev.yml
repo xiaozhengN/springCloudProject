@@ -8,7 +8,7 @@ zuul:
 #     user: /user/**
 #     order: /order/**
     myProduct:
-      path: /product/**
+      path: /myProduct/**
       serviceId: PRODUCT
 #      允许传递HttpServletRequest所有东西
       sensitiveHeaders:
